@@ -1,0 +1,22 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}
+
+application {
+    mainClass = "com.tinydemo.gulimall.coupon.GuliMallCouponApplication"
+}
+
+dependencies {
+
+}
+
+dependencyManagement {
+
+}
+
+tasks.bootJar {
+    enabled = true
+    mainClassName = application.mainClass
+    archiveBaseName = 'guli-mall-coupon'
+}

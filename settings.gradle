@@ -1,0 +1,14 @@
+rootProject.name = 'guli-mall'
+//公共模块总模块
+//include 'GradleParent'
+//include ':GradleParent:GradleCommon'
+//include ':GradleParent:GradleUtil'
+//project(':GradleParent:GradleCommon')?.name = 'GradleCommon'
+//project(':GradleParent:GradleUtil')?.name = 'GradleUtil'
+//project(':sub-project').projectDir = file("$rootDir/../sub-project")
+include 'guli-mall-coupon'
+include 'guli-mall-member'
+include 'guli-mall-order'
+include 'guli-mall-product'
+include 'guli-mall-warehouse'
+
